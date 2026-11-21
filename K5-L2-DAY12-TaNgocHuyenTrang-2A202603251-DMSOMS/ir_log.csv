@@ -1,7 +1,0 @@
-frame_id,source,phenomenon,affected_field,effect_on_label
-S04_ir,IR_sim,"Ảnh RGB quá tối (72.9% pixel tối, độ sáng tb 17.5), IR-sim (độ sáng tb 57.4) làm sáng rõ đường viền người và nôi em bé",person_and_infant_seat_bbox,"Nhận diện và vẽ chính xác bbox person và infant_seat trên IR-sim, trong khi RGB gần như bị chìm vào bóng tối"
-S02_ir,IR_sim,"Ảnh IR-sim nhân tạo triệt tiêu hoàn toàn thông tin màu sắc quần áo và ghế",object_type,"Không thể nhận biết loại vật thể qua màu sắc, phải dựa hoàn toàn vào đường nét hình học"
-S05_ir,IR_sim,"Không tái hiện được hiện tượng ánh sáng hồng ngoại giảm dần theo khoảng cách (falloff) và không có phản xạ mắt",modality_realism,"Nhận biết đây là IR mô phỏng, thuộc tính light bắt buộc để unknown"
-D02,real_IR,"Đốm phản xạ đèn LED hồng ngoại tạo vệt sáng chói trên tròng kính mắt phải",eye_right,"Gán eye_right=unknown và bật cờ occluded=1 cho 4 điểm mốc mắt phải, không đoán là closed"
-D01,real_IR,"Đèn NIR 940nm chiếu sáng đồng nhất trong cabin tối, làm nổi rõ tương phản cạnh bàn tay và vô lăng",hand_on_wheel,"Xác định chính xác trạng thái on_wheel dù cabin thiếu sáng, tuy nhiên mất hoàn toàn màu sắc da và áo"
-D03,real_IR,"Góc chiếu NIR tạo bóng đổ sâu tại hốc mắt khi đầu tài xế hơi nghiêng",eye_left,"Khó phân biệt mí mắt mở hay khép do bóng đổ, gán unknown để đảm bảo không suy đoán"

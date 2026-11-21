@@ -1,8 +1,0 @@
-File: export_final.zip · chỉ kiểm ảnh: D01, D02
-Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=2, hand=4, person=2
-  [WARN] D02.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
-Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
-
-Giải thích cảnh báo:
-- D02.png: Mắt phải có phản xạ cận hồng ngoại (NIR), 4 điểm mốc bật cờ occluded do gọng kính che khuất một phần nhưng vẫn quan sát được khe mí mắt mở qua độ sáng phản xạ.
-
